@@ -24,7 +24,7 @@ header {
     background-color: #333; /* Dark background color */
     color: white; /* White text color */
     padding: 50px; /* Padding around the sidebar */
-    position: sticky; /* Make the sidebar sticky */
+    position: fixed; /* Make the sidebar sticky */
     top: 0; /* Align the top of the sidebar with the top of the viewport */
     overflow-y: auto; /* Enable vertical scrolling */
 }
