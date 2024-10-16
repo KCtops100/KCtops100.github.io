@@ -21,7 +21,7 @@ header {
 .sidebar {
     width: 600px; /* Set a fixed width for the sidebar */
     height: 100vh; /* Full height of the viewport */
-    background-color: #333; /* Dark background color */
+    background-color: #800000; /* Dark background color */
     color: white; /* White text color */
     padding: 50px; /* Padding around the sidebar */
     position: fixed; /* Make the sidebar sticky */
