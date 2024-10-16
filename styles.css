@@ -4,7 +4,7 @@ body {
     padding: 0;
     line-height: 1.6;
     background-color: #808080;
-    color: white !important;
+    color: white; /* Changed to white for all text */
 }
 
 header {
@@ -35,12 +35,46 @@ nav a:hover {
     border-radius: 5px; /* Rounded corners on hover */
 }
 
+.container {
+    display: flex; /* Use flexbox for layout */
+}
+
+.sidebar {
+    width: 200px; /* Set a fixed width for the sidebar */
+    background-color: #333; /* Dark background color */
+    color: white; /* White text color */
+    padding: 20px; /* Padding around the sidebar */
+}
+
+.sidebar h2 {
+    font-size: 1.5em; /* Header size */
+}
+
+.sidebar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.sidebar ul li {
+    margin: 10px 0; /* Space between list items */
+}
+
+.sidebar a {
+    color: white; /* White links */
+    text-decoration: none; /* Remove underline */
+}
+
+.sidebar a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
 section {
     padding: 20px;
     margin: 20px;
     background: #5A5A5A;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-grow: 1; /* Allow section to grow */
 }
 
 footer {
