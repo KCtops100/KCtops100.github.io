@@ -22,6 +22,7 @@ header {
 }
 
 .sidebar {
+    margin-top: 200px;
     width: 250px; /* Set a reasonable width for the sidebar */
     background-color: #5A5A5A; /* Dark background color */
     color: white; /* White text color */
