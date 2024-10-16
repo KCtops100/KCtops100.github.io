@@ -12,6 +12,8 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    position: relative; /* Make header position relative */
+    z-index: 10; /* Bring the header to the front */
 }
 
 .container {
