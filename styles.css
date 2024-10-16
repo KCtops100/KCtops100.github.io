@@ -20,11 +20,11 @@ header {
 
 .sidebar {
     width: 200px; /* Set a fixed width for the sidebar */
-    height: 200vh; /* Double the height of the viewport */
+    height: 100vh; /* Full height of the viewport */
     background-color: #333; /* Dark background color */
     color: white; /* White text color */
     padding: 20px; /* Padding around the sidebar */
-    position: sticky; /* Make the sidebar stick during scroll */
+    position: sticky; /* Make the sidebar sticky */
     top: 0; /* Align the top of the sidebar with the top of the viewport */
     overflow-y: auto; /* Enable vertical scrolling */
 }
