@@ -76,3 +76,5 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    z-index: 10; /* Bring the header to the front */
+}
