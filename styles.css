@@ -37,6 +37,7 @@ header {
 
 .sidebar h2 {
     font-size: 1.5em; /* Header size */
+    margin-top: 250px;
 }
 
 .sidebar ul {
