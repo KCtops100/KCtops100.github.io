@@ -54,7 +54,7 @@ header {
 
 section {
     padding: 20px;
-    margin-left: 300px; /* Ensure space to the right of the sidebar */
+    margin-left: 350px; /* Ensure space to the right of the sidebar */
     margin-top: 20px; /* Space from the top of the viewport */
     background: #5A5A5A;
     border-radius: 8px;
