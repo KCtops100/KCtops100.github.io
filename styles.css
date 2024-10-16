@@ -53,7 +53,8 @@ header {
 
 section {
     padding: 20px;
-    margin: 20px;
+    margin-left: 270px; /* Move section over to the right of the sidebar */
+    margin-top: 20px; /* Space from the top of the viewport */
     background: #5A5A5A;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
