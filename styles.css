@@ -19,7 +19,7 @@ header {
 }
 
 .sidebar {
-    width: 600px; /* Set a fixed width for the sidebar */
+    width: 250px; /* Set a fixed width for the sidebar */
     height: 100vh; /* Full height of the viewport */
     background-color: #800000; /* Dark background color */
     color: white; /* White text color */
