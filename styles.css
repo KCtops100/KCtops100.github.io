@@ -24,7 +24,7 @@ header {
 .sidebar {
     width: 250px; /* Set a reasonable width for the sidebar */
     height: 100vh; /* Full height of the viewport */
-    margin-top: 200px;
+    margin-top: 225px;
     background-color: #5A5A5A; /* Dark background color */
     color: white; /* White text color */
     padding: 20px; /* Padding around the sidebar */
