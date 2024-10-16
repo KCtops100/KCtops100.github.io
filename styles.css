@@ -19,13 +19,14 @@ header {
 }
 
 .sidebar {
-    width: 250px; /* Set a fixed width for the sidebar */
+    width: 300px; /* Set a reasonable width for the sidebar */
     height: 100vh; /* Full height of the viewport */
     background-color: #800000; /* Dark background color */
     color: white; /* White text color */
-    padding: 50px; /* Padding around the sidebar */
-    position: fixed; /* Make the sidebar sticky */
+    padding: 20px; /* Padding around the sidebar */
+    position: fixed; /* Keep the sidebar fixed */
     top: 0; /* Align the top of the sidebar with the top of the viewport */
+    left: 0; /* Align the sidebar to the left */
     overflow-y: auto; /* Enable vertical scrolling */
 }
 
@@ -53,7 +54,7 @@ header {
 
 section {
     padding: 20px;
-    margin-left: 270px; /* Move section over to the right of the sidebar */
+    margin-left: 320px; /* Ensure space to the right of the sidebar */
     margin-top: 20px; /* Space from the top of the viewport */
     background: #5A5A5A;
     border-radius: 8px;
