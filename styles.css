@@ -22,7 +22,7 @@ header {
 }
 
 .sidebar {
-    margin-top: 220px;
+    margin-top: 215px;
     width: 250px; /* Set a reasonable width for the sidebar */
     background-color: #5A5A5A; /* Dark background color */
     color: white; /* White text color */
@@ -37,7 +37,6 @@ header {
 
 .sidebar h2 {
     font-size: 1.5em; /* Header size */
-    margin-top: 40px; /* Add space before the "Contents" header */
 }
 
 .sidebar ul {
