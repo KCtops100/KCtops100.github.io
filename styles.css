@@ -23,20 +23,21 @@ header {
 
 .sidebar {
     width: 250px; /* Set a reasonable width for the sidebar */
+    height: 100vh; /* Full height of the viewport */
     background-color: #5A5A5A; /* Dark background color */
     color: white; /* White text color */
     padding: 20px; /* Padding around the sidebar */
-    position: absolute; /* Change position to absolute */
-    top: 20px; /* Align with the header */
+    position: fixed; /* Keep the sidebar fixed */
+    top: 0; /* Align the top of the sidebar with the top of the viewport */
     left: 0; /* Align the sidebar to the left */
-    overflow-y: auto; /* Enable vertical scrolling if needed */
+    overflow-y: auto; /* Enable vertical scrolling */
     z-index: 1;
-    border-radius: 8px; /* Rounded corners for the sidebar */
 }
+
 
 .sidebar h2 {
     font-size: 1.5em; /* Header size */
-    margin-top: 40px; /* Add space before the "Contents" header */
+    margin-top: 250px;
 }
 
 .sidebar ul {
@@ -59,11 +60,11 @@ header {
 
 section {
     padding: 20px;
-    margin-left: 270px; /* Ensure space to the right of the sidebar */
+    margin-left: 350px; /* Ensure space to the right of the sidebar */
     margin-top: 20px; /* Space from the top of the viewport */
     margin-bottom: 20px;
     background: #5A5A5A;
-    border-radius: 8px; /* Rounded corners for the section */
+    border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     flex-grow: 1; /* Allow section to grow */
 }
@@ -76,4 +77,5 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    z-index: 10; /* Bring the header to the front */
 }
