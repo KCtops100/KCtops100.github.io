@@ -40,7 +40,7 @@ nav a:hover {
 }
 
 .sidebar {
-    width: 200px; /* Set a fixed width for the sidebar */
+    width: 400px; /* Set a fixed width for the sidebar */
     background-color: #333; /* Dark background color */
     color: white; /* White text color */
     padding: 20px; /* Padding around the sidebar */
