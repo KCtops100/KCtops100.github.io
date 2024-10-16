@@ -22,16 +22,17 @@ header {
 }
 
 .sidebar {
-    width: 250px; /* Set a reasonable width for the sidebar */
-    height: 100vh; /* Full height of the viewport */
+    width: 600px; /* Set a fixed width for the sidebar */
+    height: calc(100vh - 70px); /* Adjust height to account for header height */
+    margin-top: 20px; /* Add margin to create space below the header */
     background-color: #5A5A5A; /* Dark background color */
     color: white; /* White text color */
-    padding: 20px; /* Padding around the sidebar */
-    position: fixed; /* Keep the sidebar fixed */
+    padding: 50px; /* Padding around the sidebar */
+    position: fixed; /* Make the sidebar sticky */
     top: 0; /* Align the top of the sidebar with the top of the viewport */
-    left: 0; /* Align the sidebar to the left */
     overflow-y: auto; /* Enable vertical scrolling */
 }
+
 
 .sidebar h2 {
     font-size: 1.5em; /* Header size */
