@@ -14,27 +14,6 @@ header {
     text-align: center;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav a {
-    color: white; /* White links */
-    text-decoration: none; /* Remove underline */
-    padding: 5px 10px;
-}
-
-nav a:hover {
-    background: rgba(255, 255, 255, 0.3); /* Light hover effect */
-    border-radius: 5px; /* Rounded corners on hover */
-}
-
 .container {
     display: flex; /* Use flexbox for layout */
 }
