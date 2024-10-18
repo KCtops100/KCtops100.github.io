@@ -23,6 +23,7 @@ header {
 
 .sidebar {
     margin-top: 210px;
+    margin-left: 20px;
     width: 250px; /* Set a reasonable width for the sidebar */
     background-color: #5A5A5A; /* Dark background color */
     color: white; /* White text color */
@@ -60,6 +61,7 @@ header {
 section {
     padding: 20px;
     margin-left: 350px; /* Ensure space to the right of the sidebar */
+    margin-right: 20px;
     margin-top: 20px; /* Space from the top of the viewport */
     margin-bottom: 20px;
     background: #5A5A5A;
