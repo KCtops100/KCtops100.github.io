@@ -80,3 +80,18 @@ footer {
     width: 100%;
     z-index: 10; /* Bring the header to the front */
 }
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: lightgray; /* Optional: add a hover effect */
+}
+
