@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
@@ -7,24 +8,44 @@
     <link rel="stylesheet" href="styles.css">
     <title>KCtops</title>
 </head>
+
 <body>
     <header>
-        <h1>KCtops</h1>
+        <h1>KCtops Wiki</h1>
         <nav>
-            <ul>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
                 <li><a href="infinitehorizons.html">Infinite Horizons</a></li>
+                <li><a href="modlist.html">Mod List</a></li>
+                <li><a href="faq.html">FAQ</a></li>
             </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button type="submit">Search</button>
+            </div>
         </nav>
     </header>
-    <section>
-        <h2>Welcome</h2>
+
+    <aside>
+        <ul class="sidebar">
+            <li><a href="gettingstarted.html">Getting Started</a></li>
+            <li><a href="blocks.html">Blocks</a></li>
+            <li><a href="items.html">Items</a></li>
+            <li><a href="mobs.html">Mobs</a></li>
+            <li><a href="quests.html">Quests</a></li>
+        </ul>
+    </aside>
+
+    <section class="content">
+        <h2>Welcome to KCtops Wiki</h2>
         <p>This website serves as a reference for all of my Minecraft modding projects!</p>
         <p>
             <a href="https://www.bisecthosting.com/">
-                <img src="https://www.bisecthosting.com/partners/custom-banners/8f391c4d-3fe7-4cb6-9fd8-a379a2ea8643.webp">
+                <img src="https://www.bisecthosting.com/partners/custom-banners/8f391c4d-3fe7-4cb6-9fd8-a379a2ea8643.webp" alt="Bisect Hosting">
             </a>
         </p>
     </section>
+
     <footer>
         <p>&copy; 2024 KCtops</p>
         <div class="social-icons">
@@ -34,4 +55,5 @@
         </div>
     </footer>
 </body>
+
 </html>
