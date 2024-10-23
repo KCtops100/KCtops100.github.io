@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #808080;
+    color: white; /* Changed to white for all text */
+}
+
+header {
+    background: #800000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Make header position relative */
+    z-index: 10; /* Bring the header to the front */
+    width: 100%;
+}
+
+.container {
+    display: flex; /* Use flexbox for layout */
+}
+
+.sidebar {
+    margin-top: 210px;
+    margin-left: 20px;
+    width: 250px; /* Set a reasonable width for the sidebar */
+    background-color: #5A5A5A; /* Dark background color */
+    color: white; /* White text color */
+    padding: 20px; /* Padding around the sidebar */
+    position: fixed; /* Change position to absolute */
+    top: 20px; /* Align with the header */
+    left: 0; /* Align the sidebar to the left */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+    z-index: 1;
+    border-radius: 8px; /* Rounded corners for the sidebar */
+}
+
+.sidebar h2 {
+    font-size: 1.5em; /* Header size */
+}
+
+.sidebar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.sidebar ul li {
+    margin: 10px 0; /* Space between list items */
+}
+
+.sidebar a {
+    color: white; /* White links */
+    text-decoration: none; /* Remove underline */
+}
+
+.sidebar a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+section {
+    padding: 20px;
+    margin-left: 350px; /* Ensure space to the right of the sidebar */
+    margin-right: 20px;
+    margin-top: 20px; /* Space from the top of the viewport */
+    margin-bottom: 20px;
+    background: #5A5A5A;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-grow: 1; /* Allow section to grow */
+}
+
+footer {
+    background: #800000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    z-index: 10; /* Bring the header to the front */
+}
