@@ -95,3 +95,7 @@ a:hover {
     color: lightgray; /* Optional: add a hover effect */
 }
 
+table {
+  border: 1px solid white;
+  padding: 8px;
+}
