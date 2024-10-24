@@ -97,9 +97,10 @@ a:hover {
 
 table {
   border: 1px solid white;
-  padding: 8px;
+  padding: 16px; /* Increase padding to 16 pixels */
 }
 
 td, th {
   outline: 1px solid white;
+  padding: 16px; /* Increase padding to 16 pixels */
 }
