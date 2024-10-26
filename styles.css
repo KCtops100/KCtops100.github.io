@@ -13,7 +13,6 @@ header {
     color: white;
     padding: 20px 0; /* Use vertical padding only */
     text-align: center; /* Center the text */
-    position: relative;
     z-index: 10;
     width: 100%; /* Full width */
     box-sizing: border-box; /* Include padding in width calculation */
