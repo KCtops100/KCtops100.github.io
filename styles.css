@@ -5,6 +5,7 @@ body {
     line-height: 1.6;
     background-color: #808080;
     color: white; /* Changed to white for all text */
+    overflow-x: hidden;
 }
 
 header {
@@ -19,7 +20,8 @@ header {
 }
 
 .container {
-    display: flex; /* Use flexbox for layout */
+    display: flex;
+    max-width: 100%;
 }
 
 .sidebar {
