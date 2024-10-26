@@ -11,13 +11,15 @@ body {
 header {
     background: #800000;
     color: white;
-    padding: 20px;
-    text-align: center;
+    padding: 20px 0; /* Use vertical padding only */
+    text-align: center; /* Center the text */
     position: relative;
     z-index: 10;
-    width: 100%;
-    list-style-type: none;
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding in width calculation */
+    margin: 0; /* Ensure no margin */
 }
+
 
 .container {
     display: flex;
