@@ -4,7 +4,7 @@ body {
     padding: 0;
     line-height: 1.6;
     background-color: #808080;
-    color: white; /* Changed to white for all text */
+    color: white;
     overflow-x: hidden;
 }
 
@@ -13,8 +13,8 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
-    position: relative; /* Make header position relative */
-    z-index: 10; /* Bring the header to the front */
+    position: relative;
+    z-index: 10;
     width: 100%;
     list-style-type: none;
 }
@@ -27,50 +27,50 @@ header {
 .sidebar {
     margin-top: 210px;
     margin-left: 20px;
-    width: 250px; /* Set a reasonable width for the sidebar */
-    background-color: #5A5A5A; /* Dark background color */
-    color: white; /* White text color */
-    padding: 20px; /* Padding around the sidebar */
-    position: fixed; /* Change position to absolute */
-    top: 20px; /* Align with the header */
-    left: 0; /* Align the sidebar to the left */
-    overflow-y: auto; /* Enable vertical scrolling if needed */
+    width: 250px;
+    background-color: #5A5A5A;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 20px;
+    left: 0;
+    overflow-y: auto;
     z-index: 1;
-    border-radius: 8px; /* Rounded corners for the sidebar */
+    border-radius: 8px;
 }
 
 .sidebar h2 {
-    font-size: 1.5em; /* Header size */
+    font-size: 1.5em;
 }
 
 .sidebar ul {
-    list-style-type: none; /* Remove bullet points */
-    padding: 0; /* Remove default padding */
+    list-style-type: none;
+    padding: 0;
 }
 
 .sidebar ul li {
-    margin: 10px 0; /* Space between list items */
+    margin: 10px 0;
 }
 
 .sidebar a {
-    color: white; /* White links */
-    text-decoration: none; /* Remove underline */
+    color: white;
+    text-decoration: none;
 }
 
 .sidebar a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
 }
 
 section {
     padding: 20px;
-    margin-left: 350px; /* Ensure space to the right of the sidebar */
+    margin-left: 350px;
     margin-right: 20px;
-    margin-top: 20px; /* Space from the top of the viewport */
+    margin-top: 20px;
     margin-bottom: 20px;
     background: #5A5A5A;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    flex-grow: 1; /* Allow section to grow */
+    flex-grow: 1;
 }
 
 footer {
@@ -81,7 +81,7 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    z-index: 10; /* Bring the header to the front */
+    z-index: 10;
 }
 
 a {
@@ -95,15 +95,15 @@ a:visited {
 }
 
 a:hover {
-    color: lightgray; /* Optional: add a hover effect */
+    color: lightgray;
 }
 
 table {
   border: 1px solid white;
-  padding: 16px; /* Increase padding to 16 pixels */
+  padding: 16px;
 }
 
 td, th {
   outline: 1px solid white;
-  padding: 16px; /* Increase padding to 16 pixels */
+  padding: 16px;
 }
