@@ -5,7 +5,7 @@ body {
     line-height: 1.6;
     background-color: #808080;
     color: white; /* Changed to white for all text */
-    overflow-x: hidden;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 header {
@@ -13,27 +13,25 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
-    position: relative; /* Make header position relative */
-    z-index: 10; /* Bring the header to the front */
-    width: 100%;
-    list-style-type: none;
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding in width calculation */
 }
 
 .container {
     display: flex;
-    max-width: 100%;
+    max-width: 100%; /* Prevent overflow */
+    box-sizing: border-box; /* Include padding/margin in width calculation */
 }
 
 .sidebar {
-    margin-top: 210px;
-    margin-left: 20px;
     width: 250px; /* Set a reasonable width for the sidebar */
     background-color: #5A5A5A; /* Dark background color */
     color: white; /* White text color */
     padding: 20px; /* Padding around the sidebar */
-    position: fixed; /* Change position to absolute */
+    position: fixed; /* Keep sidebar fixed */
     top: 20px; /* Align with the header */
     left: 0; /* Align the sidebar to the left */
+    height: calc(100% - 40px); /* Full height minus top padding */
     overflow-y: auto; /* Enable vertical scrolling if needed */
     z-index: 1;
     border-radius: 8px; /* Rounded corners for the sidebar */
@@ -61,16 +59,17 @@ header {
     text-decoration: underline; /* Underline on hover */
 }
 
-section {
+main {
+    margin-left: 270px; /* Ensure space to the right of the sidebar */
     padding: 20px;
-    margin-left: 350px; /* Ensure space to the right of the sidebar */
-    margin-right: 20px;
-    margin-top: 20px; /* Space from the top of the viewport */
-    margin-bottom: 20px;
+    flex-grow: 1; /* Allow main content to grow */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+section {
     background: #5A5A5A;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    flex-grow: 1; /* Allow section to grow */
 }
 
 footer {
@@ -80,8 +79,9 @@ footer {
     padding: 10px;
     position: relative;
     bottom: 0;
-    width: 100%;
-    z-index: 10; /* Bring the header to the front */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding in width calculation */
+    z-index: 10; /* Bring the footer to the front */
 }
 
 a {
@@ -99,11 +99,11 @@ a:hover {
 }
 
 table {
-  border: 1px solid white;
-  padding: 16px; /* Increase padding to 16 pixels */
+    border: 1px solid white;
+    padding: 16px; /* Increase padding to 16 pixels */
 }
 
 td, th {
-  outline: 1px solid white;
-  padding: 16px; /* Increase padding to 16 pixels */
+    outline: 1px solid white;
+    padding: 16px; /* Increase padding to 16 pixels */
 }
