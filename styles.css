@@ -15,7 +15,7 @@ header {
     position: relative; /* Make header position relative */
     z-index: 10; /* Bring the header to the front */
     width: 100%;
-    list-style-type: space-counter;
+    list-style-type: none;
 }
 
 .container {
