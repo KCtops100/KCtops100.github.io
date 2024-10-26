@@ -14,6 +14,7 @@ header {
     padding: 20px 0; /* Use vertical padding only */
     text-align: center; /* Center the text */
     z-index: 10;
+    position: sticky;
     width: 100%; /* Full width */
     box-sizing: border-box; /* Include padding in width calculation */
     margin: 0; /* Ensure no margin */
